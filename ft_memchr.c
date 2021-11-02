@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbolqvad <mbolqvad@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: kchaniot <kchaniot@students.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/20 22:34:59 by mbolqvad          #+#    #+#             */
-/*   Updated: 2021/10/26 02:13:52 by mbolqvad         ###   ########.fr       */
+/*   Updated: 2021/11/02 20:40:22 by kchaniot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (0);
 }
-
-// #include <stdio.h>
-
-// int main()
-// {
-// 	const char str[] = "Gamarjoba";
-// 	printf("%s", ft_memchr(str, 'a', 0));
-// }

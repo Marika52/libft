@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbolqvad <mbolqvad@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: kchaniot <kchaniot@students.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/26 23:49:04 by mbolqvad          #+#    #+#             */
-/*   Updated: 2021/11/02 14:43:04 by mbolqvad         ###   ########.fr       */
+/*   Updated: 2021/11/02 20:37:09 by kchaniot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,8 @@ char	*ft_itoa(int n)
 
 	i = ft_digit(n);
 	nstr = malloc (i + 1);
+	if (!nstr)
+		return (0);
 	if (n == 0)
 		nstr[0] = '0';
 	nstr[i] = 0;
@@ -52,11 +54,3 @@ char	*ft_itoa(int n)
 	}
 	return (nstr);
 }
-
-// #include <stdio.h>
-// #include <stdlib.h>
-// int main()
-// {
-// 	int c = -2147483648;
-// 	printf("%s", ft_itoa(c));
-// }

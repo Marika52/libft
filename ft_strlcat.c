@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbolqvad <mbolqvad@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: kchaniot <kchaniot@students.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/24 21:16:10 by mbolqvad          #+#    #+#             */
-/*   Updated: 2021/11/01 16:39:12 by mbolqvad         ###   ########.fr       */
+/*   Updated: 2021/11/02 20:41:10 by kchaniot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,14 +35,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	else
 		return (a + src_len);
 }
-
-// #include <stdio.h>
-
-// int main()
-// {
-// 	char str[20] = "rrrrrrrrrrrrrrr";
-// 	char str1[] = "lorem ipsum dolor sit amet";
-// 	int b = ft_strlcat(str, str1, 5);
-// 	printf("%lu\n", ft_strlen(str));
-// 	printf("result: %s.\nsize: %d", str, b);
-// }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbolqvad <mbolqvad@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: kchaniot <kchaniot@students.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/30 00:25:45 by mbolqvad          #+#    #+#             */
-/*   Updated: 2021/11/02 14:45:35 by mbolqvad         ###   ########.fr       */
+/*   Updated: 2021/11/02 20:40:50 by kchaniot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,16 +67,3 @@ char	**ft_split(char const *s, char c)
 	}
 	return (split);
 }
-
-// #include <stdio.h>
-
-//  int main()
-//  {
-//  	char **p = ft_split("     ", ' ');
-// 	 printf("%p", p);
-//  	// for (int i = 0; p[i]; i++)
-//  	// {
-//  	// 	printf("i = %d | ", i);
-//  	// 	printf("%s\n", p[i]);
-//  	// }
-//  }

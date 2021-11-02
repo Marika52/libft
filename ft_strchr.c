@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbolqvad <mbolqvad@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: kchaniot <kchaniot@students.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/19 20:07:38 by mbolqvad          #+#    #+#             */
-/*   Updated: 2021/11/01 17:26:48 by mbolqvad         ###   ########.fr       */
+/*   Updated: 2021/11/02 20:40:54 by kchaniot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s + ft_strlen(s));
 	return (0);
 }
-
-// #include <stdio.h>
-
-// int main()
-// {
-// 	const char str[] = "Hello, M";
-// 	printf("%s", ft_strchr(str, 0));
-// }

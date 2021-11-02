@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbolqvad <mbolqvad@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: kchaniot <kchaniot@students.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 15:09:39 by mbolqvad          #+#    #+#             */
-/*   Updated: 2021/10/24 16:24:56 by mbolqvad         ###   ########.fr       */
+/*   Updated: 2021/11/02 20:39:58 by kchaniot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,13 +35,3 @@ int	ft_atoi(const char *str)
 	}
 	return (res * val);
 }
-
-// #include <stdio.h>
-
-// int main()
-// {
-// 	const char *p;
-// 	char str[] = "+50";
-// 	p = str;
-// 	printf("%d", ft_atoi(p));
-// }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbolqvad <mbolqvad@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: kchaniot <kchaniot@students.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/23 16:32:55 by mbolqvad          #+#    #+#             */
-/*   Updated: 2021/11/02 14:41:42 by mbolqvad         ###   ########.fr       */
+/*   Updated: 2021/11/02 20:40:07 by kchaniot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,16 +23,3 @@ void	*ft_calloc(size_t count, size_t size)
 	}
 	return (ptr);
 }
-
-// #include <stdio.h>
-
-// int main()
-// {
-// 	char s[] = "Gamarjoba!";
-// 	char *str = s;
-// 	printf("%s\n", s);
-// 	printf("%p\n", str);
-// 	str = (char *) ft_calloc (6, sizeof(char));
-// 	printf("%s\n", str);
-// 	printf("%p\n", str);
-// }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbolqvad <mbolqvad@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: kchaniot <kchaniot@students.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 03:44:57 by mbolqvad          #+#    #+#             */
-/*   Updated: 2021/11/01 23:43:48 by mbolqvad         ###   ########.fr       */
+/*   Updated: 2021/11/02 20:40:43 by kchaniot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,8 +65,3 @@ void	ft_putnbr_fd(int n, int fd)
 		}
 	}
 }
-
-// int main()
-// {
-// 	ft_putnbr_fd(-15, 1);
-// }

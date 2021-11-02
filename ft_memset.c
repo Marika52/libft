@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbolqvad <mbolqvad@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: kchaniot <kchaniot@students.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/06 18:02:53 by mbolqvad          #+#    #+#             */
-/*   Updated: 2021/11/01 15:04:45 by mbolqvad         ###   ########.fr       */
+/*   Updated: 2021/11/02 20:40:30 by kchaniot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,13 +24,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-
-// #include <stdio.h>
-// void *ft_memset(void *b, int c, size_t len);
-
-// int main()
-// {
-// 	char str[15] = "my head hurts";
-// 	printf("after using memset : %s",ft_memset(str, '?', 1));
-// 	return (0);
-// }

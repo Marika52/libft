@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbolqvad <mbolqvad@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: kchaniot <kchaniot@students.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/13 20:55:21 by mbolqvad          #+#    #+#             */
-/*   Updated: 2021/11/02 14:44:14 by mbolqvad         ###   ########.fr       */
+/*   Updated: 2021/11/02 20:39:51 by kchaniot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	char	*str;
 	char	*str1;
 
+	if (!src && !dst)
+		return (0);
 	i = 0;
 	str = (char *)src;
 	str1 = (char *)dst;
@@ -28,14 +30,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 			((unsigned char *)dst)[len] = ((unsigned char *)src)[len];
 	return (dst);
 }
-
-// #include <stdio.h>
-// void *ft_memmove(void *dst, const void *src, size_t len);
-
-// int main()
-// {
-// 	char str[42] = "Where does the pink pig go?";
-// 	char strdst[] = "hello, world";
-// 	printf("result of my efforts - %s", ft_memmove(str, strdst, 554));
-// 	return (0);
-// }

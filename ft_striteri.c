@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbolqvad <mbolqvad@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: kchaniot <kchaniot@students.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 00:50:07 by mbolqvad          #+#    #+#             */
-/*   Updated: 2021/11/02 14:46:27 by mbolqvad         ###   ########.fr       */
+/*   Updated: 2021/11/02 20:41:02 by kchaniot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,12 +27,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-
-// #include <stdio.h>
-
-// int main()
-// {
-// 	char *g = "ratom";
-// 	ft_striteri(g, &ft_ratom);
-// 	printf("%s", g);
-// }

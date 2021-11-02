@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbolqvad <mbolqvad@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: kchaniot <kchaniot@students.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/21 22:31:10 by mbolqvad          #+#    #+#             */
-/*   Updated: 2021/11/02 14:43:39 by mbolqvad         ###   ########.fr       */
+/*   Updated: 2021/11/02 20:40:26 by kchaniot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-// #include <stdio.h>
-
-// int main()
-// {
-// 	char str[] = "abc";
-// 	char str1[] = "abf";
-// 	printf("%d", ft_memcmp(str, str1, 0));
-// }
